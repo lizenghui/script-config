@@ -1,17 +1,17 @@
 #!/bin/bash
 
 
-TMM_HOME=/home/seamus/apps/tinyMediaManager
+TMM_HOME=/home/$(whoami)/apps/tinyMediaManager
 
 movie_dir=/mnt/nas01/new/movie/
-jellyfin_url="jellyfin.seamus.vip:8888"
+jellyfin_url="lizi.com:8888"
 #tvshow_dir=/mnt/nas01/new/tvshow/
 
 movie_id="13d192b95fb72c7248c39e9057670848"
 jp_movie_id="5fed72a9e6cd9416a6c38c3db9382302"
 us_movie_id="2f7e96c81428e5bddc92557b93bf1386"
-#tvshow_id="3227ce1e069754c594af25ea66d69fc7"
-api_key="31b965fda61e4a40a80eab2169963270"
+#tvshow_id=""
+api_key=""
 
 http_code=0
 down_num=0
